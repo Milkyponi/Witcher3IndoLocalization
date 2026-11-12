@@ -4,7 +4,7 @@ Mod lokalisasi teks dan subtitle Bahasa Indonesia untuk **The Witcher 3: Wild Hu
 
 - **Target Kontainer**: `content/content0/en.w3strings` (REDengine 3 format v164 UTF-8)
 - **Metode Pemasangan**: Direct Base Container Injection (Zero-Dependency, tanpa mod manager eksternal)
-- **Status Build v1.0.0**: 82.926 dari 96.915 string berubah di kontainer (decode terverifikasi terhadap sumber); 14.089 string dipertahankan English sesuai kebijakan (UI, nama monster, nama peralatan/diagram, judul quest, nama diri/lokasi, dan kredit).
+- **Status Build v1.0.0**: 82.871 dari 96.915 string berubah di kontainer (decode terverifikasi terhadap sumber); 14.044 string dipertahankan English sesuai kebijakan (UI, nama monster, nama peralatan/diagram, judul quest, nama diri/lokasi, dan kredit).
 
 ---
 
@@ -36,9 +36,9 @@ Mod lokalisasi teks dan subtitle Bahasa Indonesia untuk **The Witcher 3: Wild Hu
 | **Batch 4** | Quest Journal, Objectives & Notifications (Hybrid) | 221 | 97 | 124 | ~1.479 |
 | **Batch 5** | Other Keyed Strings, Gwent, POI & Notices (Selektif) | 11.308 | 3.035 | 8.273 | ~51.930 |
 | **UI Exempt** | UI, HUD, Menus & Settings | 1.914 | 0 | 1.914 | ~4.865 |
-| **TOTAL UNIK** | **Kontainer Terpadu `content/content0/en.w3strings`** | **96.915** | **82.926** | **13.989** | **~1.106.372** |
+| **TOTAL UNIK** | **Kontainer Terpadu `content/content0/en.w3strings`** | **96.915** | **82.871** | **14.044** | **~1.106.372** |
 
-*(Catatan: terdapat 243 ID irisan antara sampel prolog Batch 0 dan sub-batch wilayah/keyed; perhitungan di atas mengacu pada hasil decode kontainer akhir sebesar 82.926 string berubah dari 96.915 string dasar).*
+*(Catatan: terdapat 243 ID irisan antara sampel prolog Batch 0 dan sub-batch wilayah/keyed; perhitungan di atas mengacu pada hasil decode kontainer akhir sebesar 82.871 string berubah dari 96.915 string dasar).*
 
 ---
 
