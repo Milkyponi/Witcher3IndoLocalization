@@ -1,0 +1,73 @@
+================================================================================
+       PANDUAN PEMASANGAN MOD BAHASA INDONESIA THE WITCHER 3: WILD HUNT
+        Versi 1.0.0 — Remastered / Next-Gen (v4.04+ | Base + HoS + BaW)
+                Divisi Game Modding & Lokalisasi - Milky Brain
+================================================================================
+
+CAKUPAN MOD:
+Mod ini menggantikan kontainer teks bahasa Inggris (`content/content0/en.w3strings`,
+format v164 UTF-8) pada The Witcher 3: Wild Hunt Remastered (Next-Gen) dengan
+terjemahan Bahasa Indonesia pada:
+- Seluruh Dialog Cerita Utama Base Game (White Orchard, Velen, Novigrad, Skellige,
+  Kaer Morhen, hingga klimaks Wild Hunt).
+- Seluruh Dialog Ekspansi 1: Hearts of Stone.
+- Seluruh Dialog Ekspansi 2: Blood and Wine.
+- Seluruh Buku, Surat, Catatan Jurnal, & Bestiary (Batch 2).
+- Penjelasan Efek Mekanik Item, Potion, Decoction, Bomb, Oil, Skill, & Stat (Batch 3).
+- Deskripsi Objektif Quest, Log Jurnal, & Notifikasi Status Quest (Batch 4).
+- Deskripsi Tempat (Fast Travel POI), Kemampuan & Kutipan Kartu Gwent, Deskripsi
+  Achievement, & Papan Pengumuman (Batch 5).
+
+KEBIJAKAN BAHASA (ENGLISH UI / HYBRID):
+- Antarmuka utama (UI/HUD, menu pengaturan grafis/audio/kontrol) tetap dalam
+  Bahasa Inggris original.
+- Nama monster (Griffin, Ghoul, Alghoul, Wraith, Noonwraith, Drowner, Leshen,
+  Fiend, Bruxa, Katakan, Dettlaff, dll.), nama senjata/armor/potion/diagram,
+  serta judul quest/kontrak tetap dalam Bahasa Inggris original untuk memudahkan
+  pencarian panduan komunitas internasional.
+
+METODE DIRECT BASE CONTAINER INJECTION (NEXT-GEN v4.04+):
+- Update Next-Gen Remastered mengabaikan berkas `.w3strings` loose di dalam
+  folder `Mods/`. Oleh karena itu, mod ini dipasang langsung ke kontainer basis
+  `<Folder Game>/content/content0/en.w3strings`.
+
+--------------------------------------------------------------------------------
+CARA PASANG 1: METODE TIMPA LANGSUNG (MANUAL)
+--------------------------------------------------------------------------------
+1. Ekstrak arsip `The_Witcher_3_Indonesian_Translation_v1.0.0.zip`.
+2. Buka folder instalasi The Witcher 3 Anda, lalu masuk ke subfolder:
+   `<Folder Game>/content/content0/`
+   Lokasi umum:
+   - Steam Windows : C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\content\content0\
+   - GOG Windows   : C:\GOG Games\The Witcher 3 Wild Hunt GOTY\content\content0\
+   - Linux / Deck  : ~/.local/share/Steam/steamapps/common/The Witcher 3/content/content0/
+3. PENTING (Backup): Salin atau ubah nama berkas `en.w3strings` asli menjadi
+   `en.w3strings.orig.bak`.
+4. Buka folder `TIMPA_KE_FOLDER_GAME` dari hasil ekstraksi mod, lalu salin folder
+   `content` ke dalam folder instalasi utama The Witcher 3 Anda (pilih Replace/Timpa
+   ketika diminta).
+5. Pastikan bahasa teks di pengaturan game adalah English. Mod langsung aktif.
+
+--------------------------------------------------------------------------------
+CARA PASANG 2: SKRIP INSTALLER OTOMATIS (OTOMATIS BACKUP + COPY)
+--------------------------------------------------------------------------------
+- Windows: Klik ganda `INSTALL.bat` lalu masukkan path folder instalasi
+  The Witcher 3 Anda.
+- Linux / Steam Deck: Buka terminal di folder ekstraksi, lalu jalankan:
+  chmod +x INSTALL.sh && ./INSTALL.sh
+
+--------------------------------------------------------------------------------
+TIPS KHUSUS PENGGUNA LINUX / PROTON / STEAM DECK:
+--------------------------------------------------------------------------------
+Tambahkan opsi berikut pada Steam Launch Options The Witcher 3:
+  --launcher-skip %command%
+Opsi ini melewati REDlauncher sehingga game langsung meluncur dalam 1 detik dan
+mencegah status Steam tertahan di "Playing" saat keluar dari game.
+
+--------------------------------------------------------------------------------
+CARA MENGHAPUS MOD (ROLLBACK KE BAHASA INGGRIS ASLI):
+--------------------------------------------------------------------------------
+1. Buka folder `<Folder Game>/content/content0/`.
+2. Hapus berkas `en.w3strings` (versi mod), lalu ubah kembali nama berkas cadangan
+   `en.w3strings.orig.bak` menjadi `en.w3strings`.
+================================================================================
