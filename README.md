@@ -1,4 +1,8 @@
-# The Witcher 3: Wild Hunt Remastered — Indonesian Localization Mod
+<p align="center">
+  <img src="assets/banner.png" alt="The Witcher 3: Wild Hunt Remastered Indonesian Localization Banner" width="100%">
+</p>
+
+<h1 align="center">The Witcher 3: Wild Hunt Remastered — Indonesian Localization Mod</h1>
 
 <p align="center">
   <a href="https://github.com/Milkyponi/Witcher3IndoLocalization/releases"><img src="https://img.shields.io/badge/Release-v1.0.0-gold?style=for-the-badge" alt="Release"></a>
