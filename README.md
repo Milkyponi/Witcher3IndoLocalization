@@ -1,5 +1,12 @@
 # The Witcher 3: Wild Hunt Remastered — Indonesian Localization Mod
 
+<p align="center">
+  <a href="https://github.com/Milkyponi/Witcher3IndoLocalization/releases"><img src="https://img.shields.io/badge/Release-v1.0.0-gold?style=for-the-badge" alt="Release"></a>
+  <img src="https://img.shields.io/badge/Platform-PC%20(Steam%20%7C%20GOG%20%7C%20Epic%20%7C%20Deck)-blue?style=for-the-badge" alt="Platform">
+  <img src="https://img.shields.io/badge/Engine-REDengine%203%20(w3strings%20v164)-orange?style=for-the-badge" alt="Engine">
+  <a href="https://trakteer.id/milkyponi"><img src="https://img.shields.io/badge/Donate-Trakteer%20Milky%20Poni-be1e2d?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Donate via Trakteer"></a>
+</p>
+
 Mod lokalisasi teks dan subtitle Bahasa Indonesia untuk **The Witcher 3: Wild Hunt — Remastered (Next-Gen v4.04+)** mencakup Base Game, ekspansi **Hearts of Stone**, dan ekspansi **Blood and Wine** untuk PC (Steam / GOG / Epic / Steam Deck).
 
 - **Target Kontainer**: `content/content0/en.w3strings` (REDengine 3 format v164 UTF-8)
@@ -86,3 +93,17 @@ Opsi ini melewati aplikasi perantara `REDlauncher.exe` sehingga game langsung me
 - **Rekayasa Biner & Lokalisasi**: Ochi (Milky Brain — Game Modding & Localization Division)
 - **Binary Codec**: `w3strings_codec.py` (REDengine 3 `.w3strings` v164 UTF-8 Bit6 VLQ + Dynamic 16-bit XOR Cipher)
 - **Hak Cipta Game Asli**: © CD PROJEKT S.A.
+
+---
+
+## ☕ Dukung Proyek Ini (Donate)
+
+Jika mod lokalisasi Bahasa Indonesia ini bermanfaat bagi pengalaman bermain Anda, Anda dapat memberikan dukungan pengembangan kepada **Milky Poni** melalui Trakteer:
+
+<p align="center">
+  <a href="https://trakteer.id/milkyponi">
+    <img src="https://img.shields.io/badge/%E2%98%95%20Donate-Dukung%20di%20Trakteer%20(Milky%20Poni)-be1e2d?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Donate via Trakteer" height="40">
+  </a>
+</p>
+
+- **Link Trakteer**: [https://trakteer.id/milkyponi](https://trakteer.id/milkyponi)
