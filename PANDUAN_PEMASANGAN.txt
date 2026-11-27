@@ -1,6 +1,6 @@
 ================================================================================
        PANDUAN PEMASANGAN MOD BAHASA INDONESIA THE WITCHER 3: WILD HUNT
-        Versi 1.0.0 — Remastered / Next-Gen (v4.04+ | Base + HoS + BaW)
+       Versi 1.0.1 — Remastered / Next-Gen (Patch 5.02 | Base + HoS + BaW)
                 Divisi Game Modding & Lokalisasi - Milky Brain
 ================================================================================
 
@@ -34,7 +34,7 @@ METODE DIRECT BASE CONTAINER INJECTION (NEXT-GEN v4.04+):
 --------------------------------------------------------------------------------
 CARA PASANG 1: METODE TIMPA LANGSUNG (MANUAL)
 --------------------------------------------------------------------------------
-1. Ekstrak arsip `The_Witcher_3_Indonesian_Translation_v1.0.0.zip`.
+1. Ekstrak arsip `The_Witcher_3_Indonesian_Translation_v1.0.1.zip`.
 2. Buka folder instalasi The Witcher 3 Anda, lalu masuk ke subfolder:
    `<Folder Game>/content/content0/`
    Lokasi umum:

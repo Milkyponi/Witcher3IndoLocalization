@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "====================================================================="
-echo "   THE WITCHER 3: WILD HUNT REMASTERED — INDONESIAN MOD v1.0.0"
+echo "   THE WITCHER 3: WILD HUNT REMASTERED — INDONESIAN MOD v1.0.1"
 echo "         Divisi Game Modding & Lokalisasi - Milky Brain"
 echo "====================================================================="
 echo ""

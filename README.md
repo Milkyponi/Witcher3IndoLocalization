@@ -5,17 +5,17 @@
 <h1 align="center">The Witcher 3: Wild Hunt Remastered — Indonesian Localization Mod</h1>
 
 <p align="center">
-  <a href="https://github.com/Milkyponi/Witcher3IndoLocalization/releases"><img src="https://img.shields.io/badge/Release-v1.0.0-gold?style=for-the-badge" alt="Release"></a>
+  <a href="https://github.com/Milkyponi/Witcher3IndoLocalization/releases"><img src="https://img.shields.io/badge/Release-v1.0.1-gold?style=for-the-badge" alt="Release"></a>
   <img src="https://img.shields.io/badge/Platform-PC%20(Steam%20%7C%20GOG%20%7C%20Epic%20%7C%20Deck)-blue?style=for-the-badge" alt="Platform">
   <img src="https://img.shields.io/badge/Engine-REDengine%203%20(w3strings%20v164)-orange?style=for-the-badge" alt="Engine">
   <a href="https://trakteer.id/milkyponi"><img src="https://img.shields.io/badge/Donate-Trakteer%20Milky%20Poni-be1e2d?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Donate via Trakteer"></a>
 </p>
 
-Mod lokalisasi teks dan subtitle Bahasa Indonesia untuk **The Witcher 3: Wild Hunt — Remastered (Next-Gen v4.04+)** mencakup Base Game, ekspansi **Hearts of Stone**, dan ekspansi **Blood and Wine** untuk PC (Steam / GOG / Epic / Steam Deck).
+Mod lokalisasi teks dan subtitle Bahasa Indonesia untuk **The Witcher 3: Wild Hunt — Remastered (Next-Gen v4.04+ / Patch 5.02)** mencakup Base Game, ekspansi **Hearts of Stone**, dan ekspansi **Blood and Wine** untuk PC (Steam / GOG / Epic / Steam Deck).
 
 - **Target Kontainer**: `content/content0/en.w3strings` (REDengine 3 format v164 UTF-8)
 - **Metode Pemasangan**: Direct Base Container Injection (Zero-Dependency, tanpa mod manager eksternal)
-- **Status Build v1.0.0**: 82.871 dari 96.915 string berubah di kontainer (decode terverifikasi terhadap sumber); 14.044 string dipertahankan English sesuai kebijakan (UI, nama monster, nama peralatan/diagram, judul quest, nama diri/lokasi, dan kredit).
+- **Status Build v1.0.1 (Patch 5.02)**: 82.873 dari 96.978 string berubah di kontainer (decode terverifikasi terhadap sumber 5.02); 14.105 string dipertahankan English sesuai kebijakan (UI, Photo Mode, nama monster, nama peralatan/diagram, judul quest, nama diri/lokasi, dan kredit).
 
 ---
 
@@ -32,7 +32,7 @@ Mod lokalisasi teks dan subtitle Bahasa Indonesia untuk **The Witcher 3: Wild Hu
 
 ---
 
-## 2. Rincian Cakupan Kontainer (`en.w3strings` — 96.915 Entri)
+## 2. Rincian Cakupan Kontainer (`en.w3strings` — 96.978 Entri, Patch 5.02)
 
 | Batch | Cakupan Konten | Total Entri | Diterjemahkan (ID) | Tetap English (Whitelist/Policy) | Estimasi Kata Total |
 | :--- | :--- | :---: | :---: | :---: | :---: |
@@ -46,20 +46,21 @@ Mod lokalisasi teks dan subtitle Bahasa Indonesia untuk **The Witcher 3: Wild Hu
 | **Batch 3** | Items, Equipment & Potion Mechanics (Hybrid) | 2.024 | 354 | 1.670 | ~10.806 |
 | **Batch 4** | Quest Journal, Objectives & Notifications (Hybrid) | 221 | 97 | 124 | ~1.479 |
 | **Batch 5** | Other Keyed Strings, Gwent, POI & Notices (Selektif) | 11.308 | 3.035 | 8.273 | ~51.930 |
+| **Batch 6** | Sinkronisasi Patch 5.02 (Skill Rebalance, Notifikasi, & ID Baru) | 71 baru / 13 ubah | 14 | 57+ (UI/Photo Mode/Kredit) | — |
 | **UI Exempt** | UI, HUD, Menus & Settings | 1.914 | 0 | 1.914 | ~4.865 |
-| **TOTAL UNIK** | **Kontainer Terpadu `content/content0/en.w3strings`** | **96.915** | **82.871** | **14.044** | **~1.106.372** |
+| **TOTAL UNIK** | **Kontainer Terpadu `content/content0/en.w3strings`** | **96.978** | **82.873** | **14.105** | **~1.106.500** |
 
-*(Catatan: terdapat 243 ID irisan antara sampel prolog Batch 0 dan sub-batch wilayah/keyed; perhitungan di atas mengacu pada hasil decode kontainer akhir sebesar 82.871 string berubah dari 96.915 string dasar).*
+*(Catatan: terdapat irisan ID antar-batch dan 8 entri lama yang dihapus CDPR pada Patch 5.02; perhitungan di atas mengacu pada hasil decode kontainer akhir Patch 5.02 sebesar 82.873 string berubah dari 96.978 string dasar).*
 
 ---
 
 ## 3. Panduan Pemasangan
 
 Unduh arsip rilis dari halaman [Releases](https://github.com/Milkyponi/Witcher3IndoLocalization/releases):
-- **Nama Berkas**: `The_Witcher_3_Indonesian_Translation_v1.0.0.zip`
+- **Nama Berkas**: `The_Witcher_3_Indonesian_Translation_v1.0.1.zip`
 
 ### Cara 1: Pemasangan Manual (Timpa Langsung)
-1. Ekstrak berkas `The_Witcher_3_Indonesian_Translation_v1.0.0.zip`.
+1. Ekstrak berkas `The_Witcher_3_Indonesian_Translation_v1.0.1.zip`.
 2. Buka direktori instalasi **The Witcher 3** Anda, lalu masuk ke `content/content0/`:
    - **Steam (Windows)**: `C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\content\content0\`
    - **GOG (Windows)**: `C:\GOG Games\The Witcher 3 Wild Hunt GOTY\content\content0\`
